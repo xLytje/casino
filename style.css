@@ -1,0 +1,89 @@
+body{
+    margin: 0 auto;
+    width: 1000px;
+    background-color: darkred;
+}
+h1{
+    margin-top: 50px;
+}
+h1, h2, p{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    text-transform:uppercase;
+    font-weight: normal;
+    line-height: .5em;
+    color: white;
+}
+span{
+    text-decoration: line-through;
+}
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ }
+  
+.doors {
+    display: flex;
+    margin: 30px 0;
+    padding: 10px;
+    border-radius: 12px;
+    border: 4px solid transparent;
+    background: linear-gradient(to bottom right, goldenrod, gold, goldenrod) padding-box,
+                linear-gradient(to bottom right, goldenrod, gold, white, gold, goldenrod) border-box;
+}
+  
+.door {
+    background: #fafafa;
+    width: 200px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: inset 0 0 10px black;  
+}
+  
+.boxes {
+    /* transform: translateY(0); */
+    transition: transform 1s ease-in-out;
+}
+  
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+}
+  
+.buttons {
+    margin: 1rem 0 2rem 0;
+}
+  
+button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 0 0.2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 50px;
+    color: white;
+    font-size: 2em;
+    background-image: linear-gradient(to bottom right, goldenrod, gold, goldenrod);
+    font-family: 'Press Start 2P', cursive;
+}
+  
+.info {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.nejtak{
+    display: none;
+}
+.hej{
+    display: block !important;
+}
